@@ -139,3 +139,7 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 .eslintrc.json
+
+# apple desktop services store
+.DS_Store
+*.csv

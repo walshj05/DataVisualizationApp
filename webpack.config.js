@@ -26,6 +26,11 @@ module.exports = {
                 test: /\.(stl|obj|mtl|gltf|glb)$/i,
                 type: 'asset/resource',
                 generator: { filename: 'models/[name][ext]', },
+            },
+            {
+                test: /\.csv$/i,
+                type: 'asset/resource',
+                generator: { filename: '[name][ext]', },
             }
         ],
     },
