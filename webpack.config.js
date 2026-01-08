@@ -31,7 +31,12 @@ module.exports = {
                 test: /\.csv$/i,
                 type: 'asset/resource',
                 generator: { filename: '[name][ext]', },
-            }
+            },
+            {
+                test: /\.json$/i,
+                type: 'asset/resource',
+                generator: { filename: 'fonts/[name][ext]', },
+            },
         ],
     },
     resolve: {
